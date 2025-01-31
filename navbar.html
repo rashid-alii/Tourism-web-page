@@ -1,0 +1,98 @@
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: black;">
+    <div class="container">
+        <a class="navbar-brand" href="#"><b>Sky Ture & Tourism</b></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+            aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarContent">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Destinations
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Lucknow</a></li>
+                        <li><a class="dropdown-item" href="#">Haridwar</a></li>
+                        <li><a class="dropdown-item" href="#">Jaipur</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Experiences
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">
+                                <h2>Boating</h2>
+                                <p>Enjoy a serene boat ride on the river Ganga</p>
+                            </a></li>
+                        <li><a class="dropdown-item" href="#">
+                                <h2>Cultural Tour</h2>
+                                <p>Explore the rich history and culture of the region</p>
+                            </a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle trip" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Plan your Trip
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-item">
+                            <section class="plan-trip">
+                                <div class="heading">
+                                    <h1><b>Plan Your Trip</b></h1>
+                                    <p>Fill in the details to plan your custom itinerary</p>
+                                </div>
+
+                                <form class="trip-form">
+                                    <label for="destination">Choose your destination:</label>
+                                    <select id="destination">
+                                        <option value="haridwar">Haridwar</option>
+                                        <option value="agra">Agra</option>
+                                        <option value="jaipur">Jaipur</option>
+                                    </select>
+
+                                    <label for="experience">Choose an experience:</label>
+                                    <select id="experience">
+                                        <option value="boating">Boating</option>
+                                        <option value="trekking">Trekking</option>
+                                        <option value="cultural-tour">Cultural Tour</option>
+                                    </select>
+
+                                    <label for="date">Choose your trip dates:</label>
+                                    <input type="date" id="date">
+
+                                    <button type="submit">Get My Itinerary</button>
+                                </form>
+                            </section>
+                        </li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <form class="d-flex ms-lg-3">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-success" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+</nav>
