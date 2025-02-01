@@ -144,7 +144,7 @@
 }
 
 .plan-trip {
-    padding: 20px;
+    padding: 10px;
     text-align: center;
 }
 
@@ -225,5 +225,16 @@
     .card-container .card {
       height: 90px;
       width: 90px;
+    }
+  }
+@media (max-width: 520px) {
+    .plan-trip {
+      height: 400px;
+      width: 250px;
+    }
+  }
+@media (max-width: 520px) {
+    .plan-trip p {
+     font-size: small;
     }
   }
