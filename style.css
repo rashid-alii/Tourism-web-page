@@ -194,3 +194,36 @@
     background-color: transparent;
     outline: none; /* Remove focus outline */
 }
+
+@media (max-width: 600px) {
+    .heading h1 {
+      font-size: 3rem;
+    }
+  }
+@media (max-width: 600px) {
+    .heading h1 {
+      font-size: 2rem;
+    }
+  }
+@media (max-width: 490px) {
+    .home-heading h1 {
+      font-size: 3rem;
+    }
+  }
+@media (max-width: 490px) {
+    .home-heading h1 {
+      font-size: 2rem;
+    }
+  }
+@media (max-width: 520px) {
+    .card-container .card {
+      height: 100px;
+      width: 100px;
+    }
+  }
+@media (max-width: 520px) {
+    .card-container .card {
+      height: 90px;
+      width: 90px;
+    }
+  }
